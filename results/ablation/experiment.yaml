@@ -1,0 +1,22 @@
+name: ablation
+seeds: 30
+base:
+  height: 60
+  width: 60
+  map_style: rooms
+  room_size: 9
+  door_width: 2
+  n_moving_obstacles: 5
+  steps: 300
+  assignment: longest_idle
+  n_agents: 200
+  task_rate: 2.0
+variants:
+- b3_prioritized
+- a2_congestion
+- a3_priority
+- a4_adaptation
+- a5_no_coordination
+- eppace
+- eppace_res
+- eppace_manuscript_score

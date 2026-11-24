@@ -1,0 +1,24 @@
+name: robust
+seeds: 30
+base:
+  height: 60
+  width: 60
+  map_style: rooms
+  room_size: 9
+  door_width: 2
+  n_moving_obstacles: 5
+  steps: 300
+  assignment: longest_idle
+  n_agents: 50
+  task_rate: 0.5
+variants:
+- b1_astar
+- b3_prioritized
+- eppace
+grid:
+  agent_failure:
+  - 0.0
+  - 0.1
+  comm_loss:
+  - 0.0
+  - 0.2

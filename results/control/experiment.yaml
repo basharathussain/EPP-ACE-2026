@@ -1,0 +1,22 @@
+name: control
+seeds: 30
+base:
+  height: 60
+  width: 60
+  map_style: random
+  room_size: 9
+  door_width: 2
+  n_moving_obstacles: 5
+  steps: 300
+  assignment: longest_idle
+  obstacle_density: 0.15
+  task_rate: 1.0
+variants:
+- b1_astar
+- b2_replan
+- b3_prioritized
+- eppace
+grid:
+  n_agents:
+  - 50
+  - 200

@@ -1,0 +1,5 @@
+# Small end-to-end check of the sweep + statistics path. Not a result.
+name: smoke
+base: {height: 25, width: 25, n_agents: 30, steps: 150, task_rate: 1.0, n_moving_obstacles: 4}
+variants: [b1_astar, b3_prioritized, a2_congestion, eppace]
+seeds: 6

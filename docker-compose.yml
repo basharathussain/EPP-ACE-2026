@@ -1,0 +1,13 @@
+# Local only: bound to 127.0.0.1, no authentication. Heavy sweeps use every core you give Docker.
+name: eppace
+services:
+  eppace:
+    build: .
+    container_name: eppace-lab
+    ports:
+      - "127.0.0.1:8450:8000"
+    volumes:
+      - ./data:/data
+    environment:
+      EPPACE_WORKERS: "8"
+    restart: unless-stopped

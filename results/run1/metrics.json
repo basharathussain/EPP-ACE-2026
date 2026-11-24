@@ -1,0 +1,47 @@
+{
+  "tasks_created": 150,
+  "tasks_counted": 150,
+  "tasks_censored": 0,
+  "tasks_done": 150,
+  "tasks_late": 0,
+  "tcr_on_time": 100.0,
+  "completion_rate": 100.0,
+  "tcr_by_class": {
+    "critical": 100.0,
+    "high": 100.0,
+    "medium": 100.0,
+    "low": 100.0
+  },
+  "throughput": 0.5,
+  "path_efficiency": 0.9968267863004704,
+  "mean_task_latency": 4.74,
+  "makespan": 300,
+  "mean_wait_per_task": 0.06,
+  "conflicts": 0,
+  "conflicts_by_kind": {
+    "vertex": 0,
+    "swap": 0,
+    "occupied": 0
+  },
+  "conflict_rate": 0.0,
+  "obstacle_blocks": 0,
+  "yields": 1,
+  "violations": 0,
+  "violations_by_kind": {
+    "vertex": 0,
+    "swap": 0,
+    "teleport": 0,
+    "into_obstacle": 0
+  },
+  "mean_density": 0.12166667878627777,
+  "peak_density": 0.3333333432674408,
+  "invalidations": 0,
+  "adaptation_time": NaN,
+  "adaptation_censored": 0,
+  "replans": 166,
+  "plan_ms_mean": 0.05575925173484776,
+  "plan_ms_p95": 0.13165624113753438,
+  "reassigned": 0,
+  "wall_time_s": 0.24342787498608232,
+  "weight_versions": 5
+}
